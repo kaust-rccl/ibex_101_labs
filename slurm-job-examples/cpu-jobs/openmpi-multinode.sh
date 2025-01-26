@@ -1,5 +1,6 @@
 #!/bin/bash -l
 #SBATCH --time=00:10:00
+#SBATCH --nodes=2
 #SBATCH --ntasks=8
 #SBATCH --ntasks-per-node=4
 #SBATCH --reservation=ibex-101
