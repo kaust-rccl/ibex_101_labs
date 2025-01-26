@@ -14,4 +14,4 @@ cd dataset
 
 #run the application:
 module load fastqc/0.11.8
-fastqc --threads 16 SRR975578_1.fastq.gz SRR975578_2.fastq.gz
+fastqc --threads 4 SRR975578_1.fastq.gz SRR975578_2.fastq.gz
