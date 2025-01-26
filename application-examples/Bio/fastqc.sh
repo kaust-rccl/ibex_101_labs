@@ -8,7 +8,9 @@
 #SBATCH --mem=2G                        ## Estimated memory size (e.g. more than or equal to your fastq file)
 #SBATCH --reservation=ibex-101
 
-cd /ibex/scratch/projects/ibex_cs_temp/ibex_101/dataset
+#fetch the dataset files
+cp -r /ibex/scratch/projects/ibex_cs_temp/ibex_101/dataset/ ./
+cd dataset
 
 #run the application:
 module load fastqc/0.11.8
