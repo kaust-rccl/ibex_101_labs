@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --time=00:10:00
-#SBATCH --ntasks=32
-#SBATCH --tasks-per-node=32
+#SBATCH --ntasks=4
+#SBATCH --tasks-per-node=4
 #SBATCH --reservation=ibex-101
 
 # Load the OpenMPI module
@@ -13,4 +13,4 @@ echo "Number of tasks: $SLURM_NTASKS"
 echo "Nodes allocated: $SLURM_JOB_NODELIST"
 
 # Run the MPI program
-mpirun -np 32 ./mpi_hello_world
+mpirun -np 4 ./mpi_hello_world

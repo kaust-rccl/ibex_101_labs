@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --time=00:30:00
 #SBATCH --nodes=1
-#SBATCH --gpus-per-node=gtx1080ti:1
+#SBATCH --gpus-per-node=1
 #SBATCH --cpus-per-gpu=6
 #SBATCH --mem=32G
 #SBATCH --reservatin=ibex-101
