@@ -5,7 +5,7 @@
 #SBATCH --gpus=2
 #SBATCH --gpus-per-node=2
 #SBATCH --constraint=gtx1080ti
-#SBATCH --reservation=ibex-101
+#SBATCH --reservation=ibex101
 
 module load cuda/11.8
 srun -c 2 ./multi_gpu_program

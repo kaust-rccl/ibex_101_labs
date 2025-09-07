@@ -3,7 +3,7 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks=8
 #SBATCH --ntasks-per-node=4
-#SBATCH --reservation=ibex-101
+#SBATCH --reservation=ibex101
 
 # Load the OpenMPI module
 module load openmpi

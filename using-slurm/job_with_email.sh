@@ -7,7 +7,7 @@
 #SBATCH --time=00:05:00                 # Time limit (hh:mm:ss)
 #SBATCH --mail-type=ALL                 # Send email for all job events
 #SBATCH --mail-user=your_email@kaust.edu.sa  # Your KAUST email address
-#SBATCH --reservation=ibex-101            # use ibex-101 reservation
+#SBATCH --reservation=ibex101            # use ibex101 reservation
 
 # Print some information about the job
 echo "Job started on $(hostname) at $(date)"

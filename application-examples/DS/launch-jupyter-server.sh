@@ -4,7 +4,7 @@
 #SBATCH --gpus-per-node=1
 #SBATCH --cpus-per-gpu=6
 #SBATCH --mem=32G
-#SBATCH --reservatin=ibex-101
+#SBATCH --reservatin=ibex101
 #SBATCH --job-name=demo
 #SBATCH --output=%x-%j-slurm.out
 #SBATCH --error=%x-%j-slurm.err
