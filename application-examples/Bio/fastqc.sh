@@ -13,5 +13,5 @@ cp -r /ibex/scratch/projects/ibex_cs_temp/ibex_101/dataset/ ./
 cd dataset
 
 #run the application:
-module load fastqc/0.11.8
+module load fastqc/0.12.0
 fastqc --threads 4 SRR975578_1.fastq.gz SRR975578_2.fastq.gz
