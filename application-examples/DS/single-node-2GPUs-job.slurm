@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=8                # Request 8 CPUs
 #SBATCH --mem=32G                        # Request 32G memory
 #SBATCH --time=00:10:00                  # Time limit (hh:mm:ss)
-#SBATCH --reservatin=ibex-101            # use ibex-101 reservation
+#SBATCH --reservatin=ibex101            # use ibex101 reservation
 
 # Load necessary modules (if required)
 module load machine_learning/2024.01

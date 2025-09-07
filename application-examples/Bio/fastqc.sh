@@ -6,7 +6,7 @@
 #SBATCH --error=QC.%J.err               ## Console error file
 #SBATCH --time=01:30:00                 ## Expected execution time of your job
 #SBATCH --mem=2G                        ## Estimated memory size (e.g. more than or equal to your fastq file)
-#SBATCH --reservation=ibex-101
+#SBATCH --reservation=ibex101
 
 #fetch the dataset files
 cp -r /ibex/scratch/projects/ibex_cs_temp/ibex_101/dataset/ ./

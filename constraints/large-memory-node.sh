@@ -3,6 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --mem=1200G
 #SBATCH --constraint=largemem
-#SBATCH --reservation=ibex-101
+#SBATCH --reservation=ibex101
 
 free -h

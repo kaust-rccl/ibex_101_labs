@@ -2,7 +2,7 @@
 #SBATCH --time=00:10:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --reservation=ibex-101
+#SBATCH --reservation=ibex101
 
 module load gcc
 

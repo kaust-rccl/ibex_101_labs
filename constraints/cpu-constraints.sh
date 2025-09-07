@@ -3,6 +3,6 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --constraint=intel #amd
-#SBATCH --reservation=ibex-101
+#SBATCH --reservation=ibex101
 
 lscpu
