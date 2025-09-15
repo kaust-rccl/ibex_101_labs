@@ -4,7 +4,7 @@
 #SBATCH --mem=32G
 #SBATCH --gpus=2
 #SBATCH --gpus-per-node=2
-#SBATCH --constraint=gtx1080ti
+#SBATCH --constraint=rtx2080ti
 #SBATCH --reservation=ibex101
 
 module load cuda/11.8

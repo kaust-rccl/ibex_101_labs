@@ -7,7 +7,7 @@
 #SBATCH --mem=32G
 #SBATCH --gpus=4
 #SBATCH --gpus-per-node=2
-#SBATCH --constraint=gtx1080ti
+#SBATCH --constraint=rtx2080ti
 #SBATCH --reservation=ibex101
 
 
